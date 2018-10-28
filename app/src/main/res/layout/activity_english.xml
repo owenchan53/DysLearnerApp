@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".English">
+
+    <Button
+        android:id="@+id/preprimer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/button_bg_transparent"
+        android:fontFamily="@font/opendyslexic3_regular"
+        android:padding="15dp"
+        android:text="@string/engcat1"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/primer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/primer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/button_bg_transparent"
+        android:fontFamily="@font/opendyslexic3_regular"
+        android:padding="15dp"
+        android:text="@string/engcat2"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/firstgrade"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/preprimer" />
+
+    <Button
+        android:id="@+id/firstgrade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/button_bg_transparent"
+        android:fontFamily="@font/opendyslexic3_regular"
+        android:padding="15dp"
+        android:text="@string/engcat3"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/secondgrade"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/primer" />
+
+    <Button
+        android:id="@+id/secondgrade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/button_bg_transparent"
+        android:fontFamily="@font/opendyslexic3_regular"
+        android:padding="15dp"
+        android:text="@string/engcat4"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/thirdgrade"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/firstgrade" />
+
+    <Button
+        android:id="@+id/thirdgrade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/button_bg_transparent"
+        android:fontFamily="@font/opendyslexic3_regular"
+        android:padding="15dp"
+        android:text="@string/engcat5"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/noun"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/secondgrade" />
+
+    <Button
+        android:id="@+id/noun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/button_bg_transparent"
+        android:fontFamily="@font/opendyslexic3_regular"
+        android:padding="15dp"
+        android:text="@string/engcat6"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/thirdgrade" />
+</android.support.constraint.ConstraintLayout>
